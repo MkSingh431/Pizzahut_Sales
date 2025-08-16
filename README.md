@@ -1,141 +1,104 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizza Resto Presentation</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5e8d1;
-            color: #5c3d1e;
-        }
-        .slide {
-            min-height: 100vh;
-            padding: 50px;
-            box-sizing: border-box;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-        .title-slide {
-            background-color: #d17d45;
-            color: white;
-        }
-        h1 {
-            font-size: 3.5em;
-            margin-bottom: 20px;
-        }
-        h2 {
-            font-size: 2em;
-            margin-bottom: 30px;
-            color: #d17d45;
-        }
-        p {
-            font-size: 1.2em;
-            line-height: 1.6;
-            max-width: 800px;
-        }
-        .btn {
-            display: inline-block;
-            background-color: #d17d45;
-            color: white;
-            padding: 15px 30px;
-            margin: 20px;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 5px;
-            font-size: 1.2em;
-            transition: background-color 0.3s;
-        }
-        .btn:hover {
-            background-color: #b5693a;
-        }
-        .query {
-            background-color: white;
-            padding: 20px;
-            margin: 15px 0;
-            border-left: 5px solid #d17d45;
-            text-align: left;
-            max-width: 800px;
-        }
-        .thank-you {
-            background-color: #5c3d1e;
-            color: white;
-        }
-        .github-link {
-            color: #d17d45;
-            margin-top: 20px;
-            font-size: 1.1em;
-        }
-    </style>
-</head>
-<body>
-    <div class="slide title-slide">
-        <h1>WELCOME TO<br>PIZZA RESTO</h1>
-        <p>Where Every Slice is a Taste of Perfection</p>
-        <a href="#" class="btn">Start Your Slide</a>
-        <a href="#" class="btn">ORDER NOW</a>
-    </div>
+Here's a GitHub README.md file for your Pizza Resto Presentation project:
 
-    <div class="slide">
-        <h2>ABOUT OUR PIZZA RESTO</h2>
-        <h3>Our Passion for Pizza</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ipsum vitae lacus lobortis lacinia. Donec tristique arcu massa, at pharetra tortor feugiat non.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ipsum vitae lacus lobortis lacinia. Donec tristique arcu massa, at pharetra tortor feugiat non.</p>
-        <a href="#" class="btn">ORDER NOW</a>
-    </div>
+```markdown
+# Pizza Resto Presentation
 
-    <div class="slide">
-        <div class="query">-- Retrieve the total number of orders placed.</div>
-        <a href="#" class="btn">ORDER NOW</a>
-    </div>
+![Pizza Resto Banner](https://via.placeholder.com/1200x400/d17d45/ffffff?text=Pizza+Resto+Presentation)
 
-    <div class="slide">
-        <div class="query">-- Calculate the total revenue generated from pizza sales.</div>
-        <div class="query">-- Identify the highest-priced pizza.</div>
-        <a href="#" class="btn">ORDER NOW</a>
-    </div>
+A modern, bold presentation for Pizza Resto showcasing pizza analytics and restaurant information.
 
-    <div class="slide">
-        <div class="query">-- Identify the most common pizza size ordered.</div>
-        <div class="query">-- List the top 5 most ordered pizza types along with their quantities.</div>
-        <div class="query">-- Join the necessary tables to find the total quantity of each pizza category ordered.</div>
-        <a href="#" class="btn">ORDER NOW</a>
-    </div>
+## Table of Contents
+- [About](#about)
+- [Features](#features)
+- [SQL Queries](#sql-queries)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-    <div class="slide">
-        <div class="query">-- Determine the distribution of orders by hour of the day.</div>
-        <div class="query">-- Join relevant tables to find the category-wise distribution of pizzas.</div>
-        <div class="query">-- Group the orders by date and calculate the average number of pizzas ordered per day.</div>
-        <a href="#" class="btn">ORDER NOW</a>
-    </div>
+## About
 
-    <div class="slide">
-        <div class="query">-- Determine the top 3 most ordered pizza types based on revenue.</div>
-        <a href="#" class="btn">ORDER NOW</a>
-    </div>
+Welcome to Pizza Resto - where every slice is a taste of perfection! This presentation showcases our passion for pizza and includes various analytics about our pizza sales and customer preferences.
 
-    <div class="slide">
-        <div class="query">-- Calculate the percentage contribution of each pizza type to total revenue.</div>
-        <a href="#" class="btn">ORDER NOW</a>
-    </div>
+## Features
 
-    <div class="slide">
-        <div class="query">-- Analyze the cumulative revenue generated over time.</div>
-        <div class="query">-- Determine the top 3 most ordered pizza types based on revenue for each pizza category.</div>
-        <a href="#" class="btn">ORDER NOW</a>
-    </div>
+- Modern brown and orange color scheme
+- Presentation-style layout
+- Pizza analytics dashboard
+- SQL query examples for pizza data analysis
+- Responsive design
 
-    <div class="slide thank-you">
-        <h1>THANK YOU<br>FOR ATTENTION</h1>
-        <p>Pizza Resto Presentation</p>
-        <p>See You Next</p>
-        <a href="https://github.com/MkSingh431" class="github-link">https://github.com/MkSingh431</a>
-    </div>
-</body>
-</html>
+## SQL Queries
+
+The presentation includes several SQL queries for pizza analytics:
+
+```sql
+-- Retrieve the total number of orders placed.
+-- Calculate the total revenue generated from pizza sales.
+-- Identify the highest-priced pizza.
+-- Identify the most common pizza size ordered.
+-- List the top 5 most ordered pizza types along with their quantities.
+-- Join the necessary tables to find the total quantity of each pizza category ordered.
+-- Determine the distribution of orders by hour of the day.
+-- Group the orders by date and calculate the average number of pizzas ordered per day.
+-- Determine the top 3 most ordered pizza types based on revenue.
+-- Calculate the percentage contribution of each pizza type to total revenue.
+-- Analyze the cumulative revenue generated over time.
+-- Determine the top 3 most ordered pizza types based on revenue for each pizza category.
+```
+
+## Installation
+
+To view the presentation:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MkSingh431/pizza-resto-presentation.git
+   ```
+2. Open the `index.html` file in your preferred web browser.
+
+## Usage
+
+Navigate through the presentation slides using:
+- Keyboard arrows (← →)
+- Swipe gestures on touch devices
+- Click navigation buttons
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+
+Thank you for your attention!  
+Pizza Resto Presentation  
+
+See you next time!  
+
+[![GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=github)](https://github.com/MkSingh431)
+```
+
+This README.md includes:
+1. A professional header with placeholder banner image
+2. Table of contents for easy navigation
+3. Sections explaining the project, features, and SQL queries
+4. Installation and usage instructions
+5. Contribution guidelines
+6. License information
+7. GitHub badge link
+
+You can customize it further by:
+- Adding actual screenshots of your presentation
+- Including more detailed information about your pizza restaurant
+- Adding a live demo link if you host the presentation online
+- Updating the SQL queries with actual implementations if available
